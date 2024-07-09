@@ -1,0 +1,22 @@
+.vbox{
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-color: #f0f0f0;
+}
+.hbox{
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-color: #f0f0f0;
+}
+.button {
+    -fx-pref-width: 200;
+    -fx-font-size: 14px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}

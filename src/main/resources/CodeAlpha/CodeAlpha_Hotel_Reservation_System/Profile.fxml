@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="searchRooms" alignment="CENTER" prefHeight="550.0" prefWidth="650.0" spacing="10" styleClass="vbox" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ProfileController">
+   <Label alignment="CENTER" prefHeight="102.0" prefWidth="331.0" text="User's informations" textFill="#007bff">
+      <font>
+         <Font name="Arabic Typesetting" size="59.0" />
+      </font>
+   </Label>
+   <VBox maxWidth="363.0" prefHeight="474.0" prefWidth="344.0" styleClass="vbox" stylesheets="@style.css">
+      <children>
+         <Label fx:id="usernameLabel" alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+            <font>
+               <Font name="Arabic Typesetting" size="29.0" />
+            </font>
+         </Label>
+         <Label fx:id="fullNameLabel" alignment="CENTER" layoutX="10.0" layoutY="147.0" textAlignment="CENTER">
+            <font>
+               <Font name="Arabic Typesetting" size="29.0" />
+            </font>
+         </Label>
+         <HBox spacing="10.0" stylesheets="@style.css">
+            <children>
+               <Label alignment="CENTER" text="Phone number:" textFill="#007bff" underline="true">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+               <Label fx:id="emailLabel" alignment="CENTER">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+         <HBox spacing="10.0" stylesheets="@style.css">
+            <children>
+               <Label alignment="CENTER" text="E-mail:" textFill="#007bff" underline="true">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+               <Label fx:id="phoneLabel" alignment="CENTER">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+         <HBox spacing="10.0" stylesheets="@style.css">
+            <children>
+               <Label alignment="CENTER" text="Address:" textFill="#007bff" underline="true">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+               <Label fx:id="addressLabel" alignment="CENTER">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+         <HBox spacing="10.0" stylesheets="@style.css">
+            <children>
+               <Label alignment="CENTER" text="Birthday:" textFill="#007bff" underline="true">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+               <Label fx:id="birthdayLabel" alignment="CENTER">
+                  <font>
+                     <Font name="Arabic Typesetting" size="29.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+      </children>
+      <VBox.margin>
+         <Insets top="35.0" />
+      </VBox.margin>
+   </VBox>
+    <Button fx:id="backButton" onAction="#back" stylesheets="@style.css" text="Back to Main Menu" />
+</VBox>
