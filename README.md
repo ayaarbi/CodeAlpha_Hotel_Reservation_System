@@ -34,21 +34,21 @@ For the CodeAlpha intership, The Hotel Reservation System is a comprehensive Jav
     - Import the project as a Maven project.
 
 3. **Database Setup:**
-    - Create a MySQL database named `hotel_reservation`.
-    - Execute the SQL scripts in the `db` folder to create the necessary tables.
+    - Create a MySQL database named `reservation`.
+    - Execute the SQL scripts in the `reservation.sql` located in the main folder to create the necessary tables.
 
 4. **Update Database Configuration:**
-    - Open the `src/main/resources/application.properties` file.
+    - Open the `src/main/java/DAO/DBConnector` file.
     - Update the database URL, username, and password as per your MySQL setup.
 
     ```properties
-    db.url=jdbc:mysql://localhost:3306/hotel_reservation
+    db.url=jdbc:mysql://localhost:3306/reservation
     db.username=root
     db.password=yourpassword
     ```
 
 5. **Run the Application:**
-    - Locate the main class `Main.java` in the `src/main/java` directory.
+    - Locate the main class `App.java` in the `src/main/java/CodeAlpha/CodeAlpha_Hotel_Reservation_System` directory.
     - Run the main class to start the application.
 
 ## Usage
